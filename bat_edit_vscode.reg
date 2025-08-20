@@ -4,22 +4,22 @@ Windows Registry Editor Version 5.00
 ; Set Edit for .bat files to VS Code
 ; -----------------------------
 [HKEY_CLASSES_ROOT\batfile\shell\edit\command]
-@="\"C:\\Users\\Yolo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
 
 ; -----------------------------
 ; Set Edit for .cmd files to VS Code
 ; -----------------------------
 [HKEY_CLASSES_ROOT\cmdfile\shell\edit\command]
-@="\"C:\\Users\\Yolo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
 
 ; -----------------------------
 ; Set Edit for .vbs files to VS Code
 ; -----------------------------
 [HKEY_CLASSES_ROOT\VBSFile\Shell\Edit\Command]
-@="\"C:\\Users\\Yolo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
 
 ; -----------------------------
 ; Set Edit for .ps1 (PowerShell scripts) to VS Code
 ; -----------------------------
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Edit\Command]
-@="\"C:\\Users\\Yolo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+@="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""

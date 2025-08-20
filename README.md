@@ -13,7 +13,7 @@ This registry tweak changes that behavior so they will open in **Visual Studio C
 ---
 
 ## How to Use
-1. Download [`edit_scripts_vscode.reg`](./edit_scripts_vscode.reg).  
+1. Download [`edit_scripts_vscode.reg`](./bat_edit_vscode.reg).  
 2. Double-click the file.  
 3. Accept the warning when Windows asks to add the registry key.  
 4. Done ✅  

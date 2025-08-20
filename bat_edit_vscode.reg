@@ -1,4 +1,6 @@
-Windows Registry Editor Version 5.00
+;Windows Registry Editor Version 5.00
+; if u want to copy paste this code makesure end with ".reg"
+
 
 ; -----------------------------
 ; Set Edit for .bat files to VS Code
@@ -23,3 +25,4 @@ Windows Registry Editor Version 5.00
 ; -----------------------------
 [HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Edit\Command]
 @="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+
